@@ -474,7 +474,7 @@ function tdcli_update_callback(data)
 	end
 	if UpdateSourceStart then
 	UpdateSourceStart = false
-	EditMsg(data.message_.chat_id_,data.message_.id_,'10% - |█          |')
+	EditMsg(data.message_.chat_id_,data.message_.id_,'10% - |██         |')
 	EditMsg(data.message_.chat_id_,data.message_.id_,'20% - |███         |')
 	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/inc/Run.lua','./inc/Run.lua')
 	EditMsg(data.message_.chat_id_,data.message_.id_,'40% - |█████       |')
