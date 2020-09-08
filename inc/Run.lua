@@ -520,12 +520,12 @@ end
 	end)
 	end 
 	if msg.text== 'Update Source' and msg.sender_user_id_ == SUDO_ID then
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/inc/Run.lua','./inc/Run.lua')
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/inc/Script.lua','./inc/Script.lua')
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/inc/functions.lua','./inc/functions.lua')
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/inc/locks.lua','./inc/locks.lua')
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/plugins/zhrfa.lua','./plugins/zhrfa.lua')
-	download_file('https://raw.githubusercontent.com/MAXTELLE/MAX/master/plugins/games.lua','./plugins/games.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/inc/Run.lua','./inc/Run.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/inc/Script.lua','./inc/Script.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/inc/functions.lua','./inc/functions.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/inc/locks.lua','./inc/locks.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/plugins/zhrfa.lua','./plugins/zhrfa.lua')
+	download_file('https://raw.githubusercontent.com/mohamed-hmd/Telegrame/master/plugins/games.lua','./plugins/games.lua')
 	sendMsg(msg.chat_id_,msg.id_,'👷🏽| {* تــم تحديث وتثبيت السورس  *} 📡.\n\n👨🏼‍💼| { Bot is Update » }👍🏿',nil,function(arg,data)
 	dofile("./inc/Run.lua")
 	print("Reload ~ ./inc/Run.lua")
